@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:title=""
+        android:elevation="4dp">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:src="@drawable/back_btn"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_action_bar_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:id="@+id/btn_alternate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_alignParentRight="true"
+            android:padding="13dp"
+            android:src="@drawable/ic_profile"/>
+
+        <ImageButton
+            android:layout_width="22dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:background="@drawable/ic_notifications"
+            android:label="@string/app_name"
+            android:padding="25dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/btn_notif">
+        </ImageButton>
+
+    </android.support.v7.widget.Toolbar>
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

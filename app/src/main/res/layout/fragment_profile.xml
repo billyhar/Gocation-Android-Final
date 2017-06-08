@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_bg"
+    android:padding="20dp"
+    android:weightSum="1">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_profile_image"
+        android:layout_width="116dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/tv_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="3dp"
+        android:textColor="@color/textCol"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:text="Dylan Lange" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:gravity="center_horizontal"
+        android:textColor="#08003e"
+        android:textSize="14dp"
+        android:text="Wellington, New Zealand" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/textCol"
+        android:textSize="14dp"
+        android:text="Email Address:" />
+    <TextView
+        android:id="@+id/tv_profile_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:textColor="@color/textCol"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="langedyla@myvuw.ac.nz"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/textCol"
+        android:textSize="14dp"
+        android:text="Last Known Location:" />
+
+    <TextView
+        android:id="@+id/tv_last_seen_at"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Last seen at: WIG401"
+        android:textColor="@color/textCol"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.shitij.goyal.slidebutton.SwipeButton
+        android:id="@+id/alert_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Swipe to SOS"
+        android:textSize="24sp"
+        android:textColor="@color/md_white_1000"
+        android:background="@color/accent"
+        app:button_confirm_text="Release to SOS"
+        app:button_post_confirm_text="SOS sent"
+        app:after_confirmation_background="@color/accent"
+        app:button_swipe_text="Swipe to SOS"
+        app:gradient_color_1="@color/colorPrimaryDark"
+        app:gradient_color_2="@color/accent"
+        app:threshold="0.95"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

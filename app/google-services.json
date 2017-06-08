@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "180073335751",
+    "firebase_url": "https://gocation-b8ae5.firebaseio.com",
+    "project_id": "gocation-b8ae5",
+    "storage_bucket": "gocation-b8ae5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180073335751:android:8c60896a46b65ce2",
+        "android_client_info": {
+          "package_name": "com.gocation.gocation_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180073335751-ujt9uauddfoenmnvm44g8qcrm7e1s22d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gocation.gocation_android",
+            "certificate_hash": "9777767499b684c061589e1eb520cca55934ccb3"
+          }
+        },
+        {
+          "client_id": "180073335751-3a2upkjn2f3hhe1q3e1rq39ubdp9k0cs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gocation.gocation_android",
+            "certificate_hash": "04262c4ec6d6e7f4291f780e242a98a45a5017b9"
+          }
+        },
+        {
+          "client_id": "180073335751-43savibntmgsmopi3suu5vifqm1d7tf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUvDZxxGf8pqAFdco7nEinPtU6hWJ7YD8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180073335751-7f568nobgnvbbnb0dvi2epiorpql983a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.billyharris.GocationApp"
+              }
+            },
+            {
+              "client_id": "180073335751-43savibntmgsmopi3suu5vifqm1d7tf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

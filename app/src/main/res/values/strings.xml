@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gocation</string>
+    <string name="facebook_app_id">219500035206795</string>
+    <string name="fb_login_protocol_scheme">fb219500035206795</string>
+</resources>
